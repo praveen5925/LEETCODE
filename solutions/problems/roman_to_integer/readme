@@ -1,0 +1,27 @@
+# Roman to Integer
+
+## Problem
+Convert a Roman numeral into an integer.
+
+## Approach
+Compare the current character with the next character.
+
+- If current < next → subtract current
+- Otherwise → add current
+
+## Example
+
+Input:
+MCMXCIV
+
+Output:
+1994
+
+## Complexity
+
+Time: O(n)
+Space: O(1)
+
+## Language
+
+Java
